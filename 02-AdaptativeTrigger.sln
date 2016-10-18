@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AdaptativeTrigger", "02-AdaptativeTrigger\02-AdaptativeTrigger.csproj", "{013F5C94-1E62-4B62-AFE8-0A090C6C7A24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-02-Ejercicio final tema 8", "02-02-Ejercicio final tema 8\02-02-Ejercicio final tema 8.csproj", "{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{013F5C94-1E62-4B62-AFE8-0A090C6C7A24}.Release|x86.ActiveCfg = Release|x86
 		{013F5C94-1E62-4B62-AFE8-0A090C6C7A24}.Release|x86.Build.0 = Release|x86
 		{013F5C94-1E62-4B62-AFE8-0A090C6C7A24}.Release|x86.Deploy.0 = Release|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|ARM.Build.0 = Debug|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x64.ActiveCfg = Debug|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x64.Build.0 = Debug|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x64.Deploy.0 = Debug|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x86.ActiveCfg = Debug|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x86.Build.0 = Debug|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Debug|x86.Deploy.0 = Debug|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|ARM.ActiveCfg = Release|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|ARM.Build.0 = Release|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|ARM.Deploy.0 = Release|ARM
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x64.ActiveCfg = Release|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x64.Build.0 = Release|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x64.Deploy.0 = Release|x64
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x86.ActiveCfg = Release|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x86.Build.0 = Release|x86
+		{487F72CC-7EE3-48EC-B880-AD7EBB180AAA}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
