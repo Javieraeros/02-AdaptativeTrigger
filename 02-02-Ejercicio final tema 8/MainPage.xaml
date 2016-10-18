@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="_02_02_Ejercicio_final_tema_8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_02_02_Ejercicio_final_tema_8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+                           >
+        <StackPanel Orientation="Vertical">
+        <TextBlock Name="Titulo" 
+                   TextWrapping="Wrap"
+                   MinHeight="20">
+            Chiquito Ipsum lo peta
+        </TextBlock>
+        
+        <TextBlock Name="Lore" 
+                   TextWrapping="Wrap"
+                   MinHeight="40">
+                Lorem fistrum diodeno quietooor qué dise usteer. 
+                Ese pedazo de ese hombree no puedor está la cosa muy malar qué dise usteer caballo 
+                blanco caballo negroorl tiene musho peligro benemeritaar. Condemor de la pradera 
+                de la pradera está la cosa muy malar se calle ustée sexuarl. Benemeritaar ese 
+                hombree de la pradera a wan a peich amatomaa me cago en tus muelas ese hombree a 
+                wan por la gloria de mi madre. Me cago en tus muelas pecador de la pradera 
+                benemeritaar pecador diodeno quietooor ese que llega llevame al sircoo. 
+                Ahorarr amatomaa está la cosa muy malar pecador a peich tiene musho peligro.
+        </TextBlock>
+        </StackPanel>
+        <RelativePanel>
+            <StackPanel Orientation="Vertical">
+                
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Name="cuadro1" 
+                   TextWrapping="Wrap"
+                   MinHeight="20">
+            Chiquito Ipsum lo peta
+                </TextBlock>
+                <TextBlock Name="cuadro2" 
+                   TextWrapping="Wrap"
+                   MinHeight="20">
+            Chiquito Ipsum lo peta
+                </TextBlock>
+                <TextBlock Name="cuadro3" 
+                   TextWrapping="Wrap"
+                   MinHeight="20">
+            Chiquito Ipsum lo peta
+                </TextBlock>
+                <TextBlock Name="cuadro4" 
+                   TextWrapping="Wrap"
+                   MinHeight="20">
+            Chiquito Ipsum lo peta
+                </TextBlock>
+            </StackPanel>
+        </RelativePanel>
+    </Grid>
+</Page>
