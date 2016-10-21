@@ -40,10 +40,10 @@ namespace _02_02_Ejercicio_final_tema_8
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
-            if (System.Diagnostics.Debugger.IsAttached)
+            /*if (System.Diagnostics.Debugger.IsAttached)
             {
                 this.DebugSettings.EnableFrameRateCounter = true;
-            }
+            }*/
 #endif
             Frame rootFrame = Window.Current.Content as Frame;
 

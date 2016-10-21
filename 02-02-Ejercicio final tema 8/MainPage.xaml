@@ -7,18 +7,31 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
-                           >
-        <StackPanel Orientation="Vertical">
-        <TextBlock Name="Titulo" 
-                   TextWrapping="Wrap"
-                   MinHeight="20">
-            Chiquito Ipsum lo peta
-        </TextBlock>
-        
-        <TextBlock Name="Lore" 
-                   TextWrapping="Wrap"
-                   MinHeight="40">
+    <RelativePanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+                          Margin="5,5,5,5">
+        <Border Name="titulo"
+                BorderBrush="Gray" 
+                BorderThickness="1"
+                Margin="10"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True">
+            <TextBlock TextWrapping="Wrap"
+                       MinHeight="20"
+                       FontSize="40"
+                       >
+                Chiquito Ipsum lo peta
+            </TextBlock>
+        </Border>
+        <Border Name="subtitulo"
+                BorderBrush="Gray" 
+                BorderThickness="1"
+                Margin="10,0,10,10"
+                RelativePanel.Below="titulo"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True">
+            <TextBlock Name="Lore" 
+                    TextWrapping="Wrap"
+                    MinHeight="40">
                 Lorem fistrum diodeno quietooor qué dise usteer. 
                 Ese pedazo de ese hombree no puedor está la cosa muy malar qué dise usteer caballo 
                 blanco caballo negroorl tiene musho peligro benemeritaar. Condemor de la pradera 
@@ -27,34 +40,88 @@
                 wan por la gloria de mi madre. Me cago en tus muelas pecador de la pradera 
                 benemeritaar pecador diodeno quietooor ese que llega llevame al sircoo. 
                 Ahorarr amatomaa está la cosa muy malar pecador a peich tiene musho peligro.
-        </TextBlock>
-        </StackPanel>
-        <RelativePanel>
-            <StackPanel Orientation="Vertical">
-                
-            </StackPanel>
-            <StackPanel Orientation="Vertical">
-                <TextBlock Name="cuadro1" 
-                   TextWrapping="Wrap"
-                   MinHeight="20">
-            Chiquito Ipsum lo peta
-                </TextBlock>
-                <TextBlock Name="cuadro2" 
-                   TextWrapping="Wrap"
-                   MinHeight="20">
-            Chiquito Ipsum lo peta
-                </TextBlock>
-                <TextBlock Name="cuadro3" 
-                   TextWrapping="Wrap"
-                   MinHeight="20">
-            Chiquito Ipsum lo peta
-                </TextBlock>
-                <TextBlock Name="cuadro4" 
-                   TextWrapping="Wrap"
-                   MinHeight="20">
-            Chiquito Ipsum lo peta
-                </TextBlock>
-            </StackPanel>
-        </RelativePanel>
-    </Grid>
+            </TextBlock>
+        </Border>
+        <Border Name="cuadro"
+                BorderBrush="Gray" 
+                BorderThickness="1"
+                Margin="10,0,10,10"
+                RelativePanel.Below="subtitulo"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True">
+            <Grid  Margin="10,10,10,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <VariableSizedWrapGrid Name="imagenes" 
+                                           Orientation="Horizontal"
+                                       Grid.Column="0">
+                    <Rectangle Fill="Aqua" MinHeight="100" MinWidth="100"/>
+                    <Rectangle Fill="Yellow" MinHeight="100" MinWidth="100"/>
+                    <Rectangle Fill="Red" MinHeight="100" MinWidth="100"/>
+                </VariableSizedWrapGrid>
+
+
+                <StackPanel Orientation="Vertical" Grid.Column="1">
+
+                    <Border BorderBrush="Gray" 
+                            BorderThickness="1"
+                            Margin="10,0,10,10">
+                        <TextBlock Name="cuadro1" 
+                                   TextWrapping="Wrap"
+                                   MinHeight="60">
+                            Lorem fistrum benemeritaar amatomaa llevame al sircoo ese que 
+                            llega torpedo está la cosa muy malar me cago en tus muelas qué
+                            dise usteer no te digo trigo por no llamarte Rodrigor.
+                        </TextBlock>
+                    </Border>
+                    <Border BorderBrush="Gray" 
+                            BorderThickness="1"
+                            Margin="10,0,10,10">
+                        <TextBlock Name="cuadro2" 
+                                    TextWrapping="Wrap"
+                                    MinHeight="60">
+                             Pupita 
+                            mamaar tiene musho peligro diodeno está la cosa muy malar me 
+                            cago en tus muelas me cago en tus muelas mamaar a peich. La caidita 
+                            ese hombree se calle ustée condemor condemor condemor a gramenawer 
+                            a gramenawer al ataquerl. 
+                        </TextBlock>
+                    </Border>
+                    <Border BorderBrush="Gray" 
+                            BorderThickness="1"
+                            Margin="10,0,10,10">
+                        <TextBlock Name="cuadro3" 
+                                    TextWrapping="Wrap"
+                                    MinHeight="60">
+                            Condemor no te digo trigo por no llamarte
+                            Rodrigor quietooor diodenoo. Sexuarl sexuarl va usté muy cargadoo
+                            por la gloria de mi madre no te digo trigo por no llamarte Rodrigor
+                            va usté muy cargadoo apetecan.
+                        </TextBlock>
+                    </Border>
+                    <Border BorderBrush="Gray" 
+                            BorderThickness="1"
+                            Margin="10,0,10,10">
+                        <TextBlock Name="cuadro4" 
+                                   TextWrapping="Wrap"
+                                   MinHeight="60">
+                            Jarl está la cosa muy malar está la cosa muy malar te va a hasé 
+                            pupitaa te va a hasé pupitaa jarl ese que llega hasta luego Lucas 
+                            condemor.
+                        </TextBlock>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border BorderBrush="Gray" 
+                BorderThickness="1"
+                Margin="10,0,10,10"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.Below="cuadro"
+                >
+            <TextBlock ></TextBlock>
+        </Border>
+    </RelativePanel>
 </Page>
