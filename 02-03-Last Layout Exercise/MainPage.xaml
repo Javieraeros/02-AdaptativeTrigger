@@ -1,0 +1,107 @@
+﻿<Page
+    x:Class="_02_03_Last_Layout_Exercise.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_02_03_Last_Layout_Exercise"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Width="500px" 
+                Margin="20,0,0,0"
+                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                HorizontalAlignment="Left">
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title 1</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem fistrum a gramenawer no te digo trigo por no llamarte Rodrigor 
+                a gramenawer jarl pupita está la cosa muy malar. Pecador llevame al 
+                sircoo pupita va usté muy cargadoo ahorarr a gramenawer condemor sexuarl 
+                sexuarl te va a hasé pupitaa. Amatomaa papaar papaar te voy a borrar el
+                cerito pupita pecador a peich torpedo te voy a borrar el cerito torpedo.
+                Sexuarl qué dise usteer caballo blanco caballo negroorl al ataquerl te 
+                va a hasé pupitaa.
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Red" Width="100" Height="30"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title 2</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem fistrum a gramenawer no te digo trigo por no llamarte Rodrigor 
+                a gramenawer jarl pupita está la cosa muy malar. Pecador llevame al 
+                sircoo pupita va usté muy cargadoo ahorarr a gramenawer condemor sexuarl 
+                sexuarl te va a hasé pupitaa. Amatomaa papaar papaar te voy a borrar el
+                cerito pupita pecador a peich torpedo te voy a borrar el cerito torpedo.
+                Sexuarl qué dise usteer caballo blanco caballo negroorl al ataquerl te 
+                va a hasé pupitaa.
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Red" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Blue" Width="100" Height="30"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="24">Title 3</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem fistrum a gramenawer no te digo trigo por no llamarte Rodrigor 
+                a gramenawer jarl pupita está la cosa muy malar. Pecador llevame al 
+                sircoo pupita va usté muy cargadoo ahorarr a gramenawer condemor sexuarl 
+                sexuarl te va a hasé pupitaa. Amatomaa papaar papaar te voy a borrar el
+                cerito pupita pecador a peich torpedo te voy a borrar el cerito torpedo.
+                Sexuarl qué dise usteer caballo blanco caballo negroorl al ataquerl te 
+                va a hasé pupitaa.
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Blue" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Yellow" Width="100" Height="30"/>
+            </StackPanel>
+
+        </Grid>
+    </StackPanel>
+</Page>

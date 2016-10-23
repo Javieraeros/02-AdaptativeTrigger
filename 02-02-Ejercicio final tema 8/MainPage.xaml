@@ -119,9 +119,11 @@
                 BorderThickness="1"
                 Margin="10,0,10,10"
                 RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
                 RelativePanel.Below="cuadro"
                 >
-            <TextBlock ></TextBlock>
+            <TextBlock MinHeight="30"></TextBlock>
         </Border>
     </RelativePanel>
 </Page>
